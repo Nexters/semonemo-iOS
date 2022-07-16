@@ -9,24 +9,30 @@
 /* Begin PBXBuildFile section */
 		9BF3006B287FFF5C00B8B431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3006A287FFF5C00B8B431 /* AppDelegate.swift */; };
 		9BF3006D287FFF5C00B8B431 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3006C287FFF5C00B8B431 /* SceneDelegate.swift */; };
-		9BF3006F287FFF5C00B8B431 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3006E287FFF5C00B8B431 /* ViewController.swift */; };
+		9BF3006F287FFF5C00B8B431 /* HomeTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3006E287FFF5C00B8B431 /* HomeTabBarViewController.swift */; };
 		9BF30074287FFF5D00B8B431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF30073287FFF5D00B8B431 /* Assets.xcassets */; };
 		9BF30077287FFF5D00B8B431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF30075287FFF5D00B8B431 /* LaunchScreen.storyboard */; };
 		9BF30081288001CA00B8B431 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 9BF30080288001CA00B8B431 /* RxCocoa */; };
 		9BF30083288001CA00B8B431 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 9BF30082288001CA00B8B431 /* RxRelay */; };
 		9BF30085288001CA00B8B431 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9BF30084288001CA00B8B431 /* RxSwift */; };
 		9BF3008A288002BD00B8B431 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 9BF30089288002BD00B8B431 /* .swiftlint.yml */; };
+		DED0898F28827319003E46E7 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0898E28827319003E46E7 /* AppCoordinator.swift */; };
+		DED08992288273D8003E46E7 /* CoordinatorDescribing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED08991288273D8003E46E7 /* CoordinatorDescribing.swift */; };
+		DED0899528827F87003E46E7 /* HomeTabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0899428827F87003E46E7 /* HomeTabBarCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9BF30067287FFF5C00B8B431 /* semonemo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "semonemo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF3006A287FFF5C00B8B431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BF3006C287FFF5C00B8B431 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9BF3006E287FFF5C00B8B431 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BF3006E287FFF5C00B8B431 /* HomeTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarViewController.swift; sourceTree = "<group>"; };
 		9BF30073287FFF5D00B8B431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BF30076287FFF5D00B8B431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BF30078287FFF5D00B8B431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BF30089288002BD00B8B431 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		DED0898E28827319003E46E7 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		DED08991288273D8003E46E7 /* CoordinatorDescribing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorDescribing.swift; sourceTree = "<group>"; };
+		DED0899428827F87003E46E7 /* HomeTabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,7 @@
 			children = (
 				9BF300862880022900B8B431 /* Entry */,
 				9BF300872880023000B8B431 /* Scene */,
+				DED0899028827381003E46E7 /* Protocol */,
 				9BF3007E2880014D00B8B431 /* SupportFile */,
 			);
 			path = "semonemo-iOS";
@@ -92,9 +99,35 @@
 		9BF300872880023000B8B431 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
-				9BF3006E287FFF5C00B8B431 /* ViewController.swift */,
+				DED0898E28827319003E46E7 /* AppCoordinator.swift */,
+				DED0898D288272E0003E46E7 /* HomeTabBar */,
 			);
 			path = Scene;
+			sourceTree = "<group>";
+		};
+		DED0898D288272E0003E46E7 /* HomeTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				DED0899428827F87003E46E7 /* HomeTabBarCoordinator.swift */,
+				DED0899328827DA0003E46E7 /* View */,
+			);
+			path = HomeTabBar;
+			sourceTree = "<group>";
+		};
+		DED0899028827381003E46E7 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				DED08991288273D8003E46E7 /* CoordinatorDescribing.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		DED0899328827DA0003E46E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BF3006E287FFF5C00B8B431 /* HomeTabBarViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +231,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BF3006F287FFF5C00B8B431 /* ViewController.swift in Sources */,
+				DED08992288273D8003E46E7 /* CoordinatorDescribing.swift in Sources */,
+				DED0898F28827319003E46E7 /* AppCoordinator.swift in Sources */,
+				9BF3006F287FFF5C00B8B431 /* HomeTabBarViewController.swift in Sources */,
+				DED0899528827F87003E46E7 /* HomeTabBarCoordinator.swift in Sources */,
 				9BF3006B287FFF5C00B8B431 /* AppDelegate.swift in Sources */,
 				9BF3006D287FFF5C00B8B431 /* SceneDelegate.swift in Sources */,
 			);
