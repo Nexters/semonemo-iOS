@@ -1,6 +1,6 @@
 import UIKit
 
-class HomeTabBarViewController: UIViewController {
+final class GeneratingGroupViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }

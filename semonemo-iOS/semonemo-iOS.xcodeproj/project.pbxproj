@@ -9,30 +9,42 @@
 /* Begin PBXBuildFile section */
 		9BF3006B287FFF5C00B8B431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3006A287FFF5C00B8B431 /* AppDelegate.swift */; };
 		9BF3006D287FFF5C00B8B431 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3006C287FFF5C00B8B431 /* SceneDelegate.swift */; };
-		9BF3006F287FFF5C00B8B431 /* HomeTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3006E287FFF5C00B8B431 /* HomeTabBarViewController.swift */; };
+		9BF3006F287FFF5C00B8B431 /* GroupListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3006E287FFF5C00B8B431 /* GroupListViewController.swift */; };
 		9BF30074287FFF5D00B8B431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF30073287FFF5D00B8B431 /* Assets.xcassets */; };
 		9BF30077287FFF5D00B8B431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF30075287FFF5D00B8B431 /* LaunchScreen.storyboard */; };
 		9BF30081288001CA00B8B431 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 9BF30080288001CA00B8B431 /* RxCocoa */; };
 		9BF30083288001CA00B8B431 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 9BF30082288001CA00B8B431 /* RxRelay */; };
 		9BF30085288001CA00B8B431 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9BF30084288001CA00B8B431 /* RxSwift */; };
 		9BF3008A288002BD00B8B431 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 9BF30089288002BD00B8B431 /* .swiftlint.yml */; };
+		DE6B4D7A2883905000F2B031 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6B4D792883905000F2B031 /* TabBarController.swift */; };
 		DED0898F28827319003E46E7 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0898E28827319003E46E7 /* AppCoordinator.swift */; };
 		DED08992288273D8003E46E7 /* CoordinatorDescribing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED08991288273D8003E46E7 /* CoordinatorDescribing.swift */; };
-		DED0899528827F87003E46E7 /* HomeTabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0899428827F87003E46E7 /* HomeTabBarCoordinator.swift */; };
+		DED0899528827F87003E46E7 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0899428827F87003E46E7 /* TabBarCoordinator.swift */; };
+		DED0899A288298AA003E46E7 /* GroupListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED08999288298AA003E46E7 /* GroupListCoordinator.swift */; };
+		DED0899C28829963003E46E7 /* GeneratingGroupCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0899B28829963003E46E7 /* GeneratingGroupCoordinator.swift */; };
+		DED0899E2882996D003E46E7 /* RewardCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0899D2882996D003E46E7 /* RewardCoordinator.swift */; };
+		DED089A228829A86003E46E7 /* GeneratingGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED089A128829A86003E46E7 /* GeneratingGroupViewController.swift */; };
+		DED089A428829ABB003E46E7 /* RewardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED089A328829ABB003E46E7 /* RewardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9BF30067287FFF5C00B8B431 /* semonemo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "semonemo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF3006A287FFF5C00B8B431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BF3006C287FFF5C00B8B431 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9BF3006E287FFF5C00B8B431 /* HomeTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarViewController.swift; sourceTree = "<group>"; };
+		9BF3006E287FFF5C00B8B431 /* GroupListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListViewController.swift; sourceTree = "<group>"; };
 		9BF30073287FFF5D00B8B431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BF30076287FFF5D00B8B431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BF30078287FFF5D00B8B431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BF30089288002BD00B8B431 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		DE6B4D792883905000F2B031 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		DED0898E28827319003E46E7 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		DED08991288273D8003E46E7 /* CoordinatorDescribing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorDescribing.swift; sourceTree = "<group>"; };
-		DED0899428827F87003E46E7 /* HomeTabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarCoordinator.swift; sourceTree = "<group>"; };
+		DED0899428827F87003E46E7 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		DED08999288298AA003E46E7 /* GroupListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListCoordinator.swift; sourceTree = "<group>"; };
+		DED0899B28829963003E46E7 /* GeneratingGroupCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratingGroupCoordinator.swift; sourceTree = "<group>"; };
+		DED0899D2882996D003E46E7 /* RewardCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardCoordinator.swift; sourceTree = "<group>"; };
+		DED089A128829A86003E46E7 /* GeneratingGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratingGroupViewController.swift; sourceTree = "<group>"; };
+		DED089A328829ABB003E46E7 /* RewardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,18 +112,29 @@
 			isa = PBXGroup;
 			children = (
 				DED0898E28827319003E46E7 /* AppCoordinator.swift */,
-				DED0898D288272E0003E46E7 /* HomeTabBar */,
+				DED0898D288272E0003E46E7 /* TabBar */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
 		};
-		DED0898D288272E0003E46E7 /* HomeTabBar */ = {
+		DE6B4D782883902500F2B031 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DED0899428827F87003E46E7 /* HomeTabBarCoordinator.swift */,
-				DED0899328827DA0003E46E7 /* View */,
+				DE6B4D792883905000F2B031 /* TabBarController.swift */,
 			);
-			path = HomeTabBar;
+			path = View;
+			sourceTree = "<group>";
+		};
+		DED0898D288272E0003E46E7 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				DED0899428827F87003E46E7 /* TabBarCoordinator.swift */,
+				DE6B4D782883902500F2B031 /* View */,
+				DED089962882984E003E46E7 /* GroupList */,
+				DED0899728829864003E46E7 /* GeneratingGroup */,
+				DED089982882988E003E46E7 /* Reward */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 		DED0899028827381003E46E7 /* Protocol */ = {
@@ -125,7 +148,50 @@
 		DED0899328827DA0003E46E7 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9BF3006E287FFF5C00B8B431 /* HomeTabBarViewController.swift */,
+				9BF3006E287FFF5C00B8B431 /* GroupListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DED089962882984E003E46E7 /* GroupList */ = {
+			isa = PBXGroup;
+			children = (
+				DED08999288298AA003E46E7 /* GroupListCoordinator.swift */,
+				DED0899328827DA0003E46E7 /* View */,
+			);
+			path = GroupList;
+			sourceTree = "<group>";
+		};
+		DED0899728829864003E46E7 /* GeneratingGroup */ = {
+			isa = PBXGroup;
+			children = (
+				DED0899B28829963003E46E7 /* GeneratingGroupCoordinator.swift */,
+				DED0899F28829A0C003E46E7 /* View */,
+			);
+			path = GeneratingGroup;
+			sourceTree = "<group>";
+		};
+		DED089982882988E003E46E7 /* Reward */ = {
+			isa = PBXGroup;
+			children = (
+				DED0899D2882996D003E46E7 /* RewardCoordinator.swift */,
+				DED089A028829A22003E46E7 /* View */,
+			);
+			path = Reward;
+			sourceTree = "<group>";
+		};
+		DED0899F28829A0C003E46E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DED089A128829A86003E46E7 /* GeneratingGroupViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DED089A028829A22003E46E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DED089A328829ABB003E46E7 /* RewardViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -231,10 +297,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DED089A428829ABB003E46E7 /* RewardViewController.swift in Sources */,
+				DED089A228829A86003E46E7 /* GeneratingGroupViewController.swift in Sources */,
+				DED0899C28829963003E46E7 /* GeneratingGroupCoordinator.swift in Sources */,
 				DED08992288273D8003E46E7 /* CoordinatorDescribing.swift in Sources */,
 				DED0898F28827319003E46E7 /* AppCoordinator.swift in Sources */,
-				9BF3006F287FFF5C00B8B431 /* HomeTabBarViewController.swift in Sources */,
-				DED0899528827F87003E46E7 /* HomeTabBarCoordinator.swift in Sources */,
+				9BF3006F287FFF5C00B8B431 /* GroupListViewController.swift in Sources */,
+				DED0899528827F87003E46E7 /* TabBarCoordinator.swift in Sources */,
+				DED0899E2882996D003E46E7 /* RewardCoordinator.swift in Sources */,
+				DED0899A288298AA003E46E7 /* GroupListCoordinator.swift in Sources */,
+				DE6B4D7A2883905000F2B031 /* TabBarController.swift in Sources */,
 				9BF3006B287FFF5C00B8B431 /* AppDelegate.swift in Sources */,
 				9BF3006D287FFF5C00B8B431 /* SceneDelegate.swift in Sources */,
 			);
