@@ -83,6 +83,7 @@
 				9BF300862880022900B8B431 /* Entry */,
 				9BF300872880023000B8B431 /* Scene */,
 				DED0899028827381003E46E7 /* Protocol */,
+				DE137A392889974A00DDE551 /* DesignSystem */,
 				9BF3007E2880014D00B8B431 /* SupportFile */,
 			);
 			path = "semonemo-iOS";
@@ -115,6 +116,21 @@
 				DED0898D288272E0003E46E7 /* TabBar */,
 			);
 			path = Scene;
+			sourceTree = "<group>";
+		};
+		DE137A392889974A00DDE551 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				DE137A3A2889976500DDE551 /* Color */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		DE137A3A2889976500DDE551 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Color;
 			sourceTree = "<group>";
 		};
 		DE6B4D782883902500F2B031 /* View */ = {
