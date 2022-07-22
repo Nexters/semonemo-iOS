@@ -12,7 +12,7 @@ class GroupInfo: Codable {
     let host: HostInfo
     let place: PlaceInfo
     let startDate: String
-    let endData: String
+    let endDate: String
 }
 
 class HostInfo: Codable {
