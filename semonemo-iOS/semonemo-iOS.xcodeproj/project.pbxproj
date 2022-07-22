@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B00B7C9288A34B90068B535 /* GroupListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B00B7C8288A34B90068B535 /* GroupListViewModel.swift */; };
 		9B126CBF2887BA6500733C2F /* GroupInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B126CBE2887BA6500733C2F /* GroupInfo.swift */; };
 		9B126CC72887CC4900733C2F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9B126CC62887CC4900733C2F /* Alamofire */; };
 		9B126CC92887CCF600733C2F /* SemonemoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B126CC82887CCF600733C2F /* SemonemoAPI.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B00B7C8288A34B90068B535 /* GroupListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListViewModel.swift; sourceTree = "<group>"; };
 		9B126CBE2887BA6500733C2F /* GroupInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupInfo.swift; sourceTree = "<group>"; };
 		9B126CC82887CCF600733C2F /* SemonemoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemonemoAPI.swift; sourceTree = "<group>"; };
 		9BF30067287FFF5C00B8B431 /* semonemo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "semonemo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				9BF3006E287FFF5C00B8B431 /* GroupListViewController.swift */,
+				9B00B7C8288A34B90068B535 /* GroupListViewModel.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				DED089A428829ABB003E46E7 /* RewardViewController.swift in Sources */,
 				DED089A228829A86003E46E7 /* GeneratingGroupViewController.swift in Sources */,
 				DED0899C28829963003E46E7 /* GeneratingGroupCoordinator.swift in Sources */,
+				9B00B7C9288A34B90068B535 /* GroupListViewModel.swift in Sources */,
 				DED08992288273D8003E46E7 /* CoordinatorDescribing.swift in Sources */,
 				DED0898F28827319003E46E7 /* AppCoordinator.swift in Sources */,
 				9B126CBF2887BA6500733C2F /* GroupInfo.swift in Sources */,
