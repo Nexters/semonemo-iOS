@@ -11,7 +11,6 @@ final class GroupListCoordinator: CoordinatorDescribing {
     
     func pushViewController() -> UINavigationController {
         let groupListViewController = GroupListViewController()
-        groupListViewController.view.backgroundColor = .red
         navigationController = UINavigationController(rootViewController: groupListViewController)
         
         guard let navigationController = navigationController else { return UINavigationController() }

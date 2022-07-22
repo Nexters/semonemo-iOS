@@ -12,7 +12,6 @@ final class GeneratingGroupCoordinator: CoordinatorDescribing {
     
     func pushViewController() -> UINavigationController {
         let generatingGroupViewController = GeneratingGroupViewController()
-        generatingGroupViewController.view.backgroundColor = .blue
         navigationController = UINavigationController(rootViewController: generatingGroupViewController)
         
         guard let navigationController = navigationController else { return UINavigationController() }

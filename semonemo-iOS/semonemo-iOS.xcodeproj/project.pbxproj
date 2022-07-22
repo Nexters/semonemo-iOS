@@ -16,6 +16,7 @@
 		9BF30083288001CA00B8B431 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 9BF30082288001CA00B8B431 /* RxRelay */; };
 		9BF30085288001CA00B8B431 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9BF30084288001CA00B8B431 /* RxSwift */; };
 		9BF3008A288002BD00B8B431 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 9BF30089288002BD00B8B431 /* .swiftlint.yml */; };
+		DE137A43288AD0A100DDE551 /* CALayer+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE137A42288AD0A100DDE551 /* CALayer+.swift */; };
 		DE6B4D7A2883905000F2B031 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6B4D792883905000F2B031 /* TabBarController.swift */; };
 		DED0898F28827319003E46E7 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0898E28827319003E46E7 /* AppCoordinator.swift */; };
 		DED08992288273D8003E46E7 /* CoordinatorDescribing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED08991288273D8003E46E7 /* CoordinatorDescribing.swift */; };
@@ -36,6 +37,7 @@
 		9BF30076287FFF5D00B8B431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BF30078287FFF5D00B8B431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BF30089288002BD00B8B431 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		DE137A42288AD0A100DDE551 /* CALayer+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+.swift"; sourceTree = "<group>"; };
 		DE6B4D792883905000F2B031 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		DED0898E28827319003E46E7 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		DED08991288273D8003E46E7 /* CoordinatorDescribing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorDescribing.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				9BF300862880022900B8B431 /* Entry */,
 				9BF300872880023000B8B431 /* Scene */,
 				DED0899028827381003E46E7 /* Protocol */,
+				DE137A41288AD08300DDE551 /* Extension */,
 				DE137A392889974A00DDE551 /* DesignSystem */,
 				9BF3007E2880014D00B8B431 /* SupportFile */,
 			);
@@ -131,6 +134,14 @@
 			children = (
 			);
 			path = Color;
+			sourceTree = "<group>";
+		};
+		DE137A41288AD08300DDE551 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DE137A42288AD0A100DDE551 /* CALayer+.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		DE6B4D782883902500F2B031 /* View */ = {
@@ -323,6 +334,7 @@
 				DED0899E2882996D003E46E7 /* RewardCoordinator.swift in Sources */,
 				DED0899A288298AA003E46E7 /* GroupListCoordinator.swift in Sources */,
 				DE6B4D7A2883905000F2B031 /* TabBarController.swift in Sources */,
+				DE137A43288AD0A100DDE551 /* CALayer+.swift in Sources */,
 				9BF3006B287FFF5C00B8B431 /* AppDelegate.swift in Sources */,
 				9BF3006D287FFF5C00B8B431 /* SceneDelegate.swift in Sources */,
 			);
