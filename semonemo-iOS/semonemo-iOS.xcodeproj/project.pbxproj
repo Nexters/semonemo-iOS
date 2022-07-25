@@ -17,6 +17,11 @@
 		9BF30085288001CA00B8B431 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9BF30084288001CA00B8B431 /* RxSwift */; };
 		9BF3008A288002BD00B8B431 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 9BF30089288002BD00B8B431 /* .swiftlint.yml */; };
 		DE137A43288AD0A100DDE551 /* CALayer+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE137A42288AD0A100DDE551 /* CALayer+.swift */; };
+		DE137A51288ADDC100DDE551 /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE137A50288ADDC100DDE551 /* UIFont+.swift */; };
+		DE137A54288ADFD600DDE551 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = DE137A53288ADFD600DDE551 /* Then */; };
+		DE137A57288ADFF300DDE551 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DE137A56288ADFF300DDE551 /* SnapKit */; };
+		DE137A59288AE12500DDE551 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE137A58288AE12500DDE551 /* UIColor+.swift */; };
+		DE137A5E288B7C7700DDE551 /* UITextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE137A5D288B7C7700DDE551 /* UITextField+.swift */; };
 		DE6B4D7A2883905000F2B031 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6B4D792883905000F2B031 /* TabBarController.swift */; };
 		DED0898F28827319003E46E7 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED0898E28827319003E46E7 /* AppCoordinator.swift */; };
 		DED08992288273D8003E46E7 /* CoordinatorDescribing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED08991288273D8003E46E7 /* CoordinatorDescribing.swift */; };
@@ -38,6 +43,18 @@
 		9BF30078287FFF5D00B8B431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BF30089288002BD00B8B431 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		DE137A42288AD0A100DDE551 /* CALayer+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+.swift"; sourceTree = "<group>"; };
+		DE137A47288ADD5B00DDE551 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		DE137A48288ADD5B00DDE551 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		DE137A49288ADD5B00DDE551 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
+		DE137A4A288ADD5B00DDE551 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		DE137A4B288ADD5B00DDE551 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		DE137A4C288ADD5B00DDE551 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		DE137A4D288ADD5B00DDE551 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		DE137A4E288ADD5B00DDE551 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		DE137A4F288ADD5B00DDE551 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		DE137A50288ADDC100DDE551 /* UIFont+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
+		DE137A58288AE12500DDE551 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		DE137A5D288B7C7700DDE551 /* UITextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+.swift"; sourceTree = "<group>"; };
 		DE6B4D792883905000F2B031 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		DED0898E28827319003E46E7 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		DED08991288273D8003E46E7 /* CoordinatorDescribing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorDescribing.swift; sourceTree = "<group>"; };
@@ -57,6 +74,8 @@
 				9BF30085288001CA00B8B431 /* RxSwift in Frameworks */,
 				9BF30083288001CA00B8B431 /* RxRelay in Frameworks */,
 				9BF30081288001CA00B8B431 /* RxCocoa in Frameworks */,
+				DE137A54288ADFD600DDE551 /* Then in Frameworks */,
+				DE137A57288ADFF300DDE551 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,24 +143,36 @@
 		DE137A392889974A00DDE551 /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
-				DE137A3A2889976500DDE551 /* Color */,
+				DE137A46288ADD4F00DDE551 /* Font */,
 			);
 			path = DesignSystem;
-			sourceTree = "<group>";
-		};
-		DE137A3A2889976500DDE551 /* Color */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Color;
 			sourceTree = "<group>";
 		};
 		DE137A41288AD08300DDE551 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				DE137A42288AD0A100DDE551 /* CALayer+.swift */,
+				DE137A50288ADDC100DDE551 /* UIFont+.swift */,
+				DE137A58288AE12500DDE551 /* UIColor+.swift */,
+				DE137A5D288B7C7700DDE551 /* UITextField+.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		DE137A46288ADD4F00DDE551 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				DE137A49288ADD5B00DDE551 /* Pretendard-Black.otf */,
+				DE137A4B288ADD5B00DDE551 /* Pretendard-Bold.otf */,
+				DE137A4D288ADD5B00DDE551 /* Pretendard-ExtraBold.otf */,
+				DE137A47288ADD5B00DDE551 /* Pretendard-ExtraLight.otf */,
+				DE137A4E288ADD5B00DDE551 /* Pretendard-Light.otf */,
+				DE137A48288ADD5B00DDE551 /* Pretendard-Medium.otf */,
+				DE137A4A288ADD5B00DDE551 /* Pretendard-Regular.otf */,
+				DE137A4C288ADD5B00DDE551 /* Pretendard-SemiBold.otf */,
+				DE137A4F288ADD5B00DDE551 /* Pretendard-Thin.otf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 		DE6B4D782883902500F2B031 /* View */ = {
@@ -244,6 +275,8 @@
 				9BF30080288001CA00B8B431 /* RxCocoa */,
 				9BF30082288001CA00B8B431 /* RxRelay */,
 				9BF30084288001CA00B8B431 /* RxSwift */,
+				DE137A53288ADFD600DDE551 /* Then */,
+				DE137A56288ADFF300DDE551 /* SnapKit */,
 			);
 			productName = "semonemo-iOS";
 			productReference = 9BF30067287FFF5C00B8B431 /* semonemo-iOS.app */;
@@ -275,6 +308,8 @@
 			mainGroup = 9BF3005E287FFF5C00B8B431;
 			packageReferences = (
 				9BF3007F288001CA00B8B431 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				DE137A52288ADFD600DDE551 /* XCRemoteSwiftPackageReference "Then" */,
+				DE137A55288ADFF300DDE551 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 9BF30068287FFF5C00B8B431 /* Products */;
 			projectDirPath = "";
@@ -328,15 +363,18 @@
 				DED089A228829A86003E46E7 /* GeneratingGroupViewController.swift in Sources */,
 				DED0899C28829963003E46E7 /* GeneratingGroupCoordinator.swift in Sources */,
 				DED08992288273D8003E46E7 /* CoordinatorDescribing.swift in Sources */,
+				DE137A59288AE12500DDE551 /* UIColor+.swift in Sources */,
 				DED0898F28827319003E46E7 /* AppCoordinator.swift in Sources */,
 				9BF3006F287FFF5C00B8B431 /* GroupListViewController.swift in Sources */,
 				DED0899528827F87003E46E7 /* TabBarCoordinator.swift in Sources */,
 				DED0899E2882996D003E46E7 /* RewardCoordinator.swift in Sources */,
+				DE137A51288ADDC100DDE551 /* UIFont+.swift in Sources */,
 				DED0899A288298AA003E46E7 /* GroupListCoordinator.swift in Sources */,
 				DE6B4D7A2883905000F2B031 /* TabBarController.swift in Sources */,
 				DE137A43288AD0A100DDE551 /* CALayer+.swift in Sources */,
 				9BF3006B287FFF5C00B8B431 /* AppDelegate.swift in Sources */,
 				9BF3006D287FFF5C00B8B431 /* SceneDelegate.swift in Sources */,
+				DE137A5E288B7C7700DDE551 /* UITextField+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +596,22 @@
 				minimumVersion = 6.0.0;
 			};
 		};
+		DE137A52288ADFD600DDE551 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		DE137A55288ADFF300DDE551 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -575,6 +629,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 9BF3007F288001CA00B8B431 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
+		};
+		DE137A53288ADFD600DDE551 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE137A52288ADFD600DDE551 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		DE137A56288ADFF300DDE551 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE137A55288ADFF300DDE551 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

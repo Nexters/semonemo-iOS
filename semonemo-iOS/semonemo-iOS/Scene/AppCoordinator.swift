@@ -17,6 +17,8 @@ final class AppCoordinator: CoordinatorDescribing {
     
     private func showHomeTabBarViewController() {
         guard let navigationController = navigationController else { return }
+        navigationController.navigationBar.isHidden = true
+        
         let tabBarCoordinator = TabBarCoordinator(navigationController: navigationController)
         childCoordinators.append(tabBarCoordinator)
         tabBarCoordinator.start()

@@ -13,6 +13,7 @@ final class GeneratingGroupCoordinator: CoordinatorDescribing {
     func pushViewController() -> UINavigationController {
         let generatingGroupViewController = GeneratingGroupViewController()
         navigationController = UINavigationController(rootViewController: generatingGroupViewController)
+        navigationController?.navigationBar.isHidden = true
         
         guard let navigationController = navigationController else { return UINavigationController() }
         
